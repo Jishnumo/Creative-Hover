@@ -5,12 +5,7 @@
     font-family: sans-serif;
     background-color: #a7d8de;
 }
-.mainsec{
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 body{
     height: 100vh;
     display: flex;
