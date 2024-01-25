@@ -17,7 +17,7 @@ body{
     width: 28rem;
     position: relative;
     overflow: hidden;
-    box-shadow: 8px 10px 18px rgba(0, 0, 0, 0.346);
+    box-shadow: 8px 23px 18px rgba(34, 33, 33, 0.346);
 }
 
 .container img{
@@ -35,22 +35,35 @@ body{
     height:10px;
     background-color: crimson;
     color: #fff;
+    transition: 0.6s;
 }
 h1{
     font-size: 30px;
     background-color: crimson;
     text-align: center;
     margin: 10px 0;
+    opacity: 0;
+    transition: .5s;
 }
 h4{
     text-align: center;
     padding: 10px;
     background-color: crimson;
+    opacity: 0;
+    transition: .5s;
 }
 .container:hover img{
     opacity: 0;
 }
 .container:hover .writtings{
-    
+    left:0;
+    height:100%;
+    width: 100%;
 }
 
+.container:hover h1{
+    opacity: 100%;
+}
+.container:hover h4{
+    opacity: 100%;
+}
